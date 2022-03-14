@@ -1,0 +1,14 @@
+\newcommand{\errGCParamB}{
+\renewcommand{\arraystretch}{1}
+\begin{landscape}
+\begin{tabular}{|c|*{12}{c}|}
+\hline
+\diagbox{Methods}{Errors} & Fmin & MC-M & GC3-MC & GC4-MC & GC5-MC & GC6-MC & GC7-MC & GC3-M & GC4-M & GC5-M & GC6-M & GC7-M\\
+\hline
+ga & 2.84e-02 & 2.54e-03 & 1.69e-03 & 1.18e-03 & 1.18e-03 & 1.11e-03 & 1.11e-03 & 2.80e-03 & 2.58e-03 & 2.58e-03 & 2.53e-03 & 2.53e-03\\
+ga + fmincon & 2.07e-02 & 2.26e-03 & 1.19e-03 & 1.22e-03 & 1.22e-03 & 1.12e-03 & 1.12e-03 & 2.24e-03 & 2.25e-03 & 2.25e-03 & 2.20e-03 & 2.20e-03\\
+fmincon 2 & 1.07e-03 & 9.61e-04 & 1.09e-03 & 1.43e-03 & 1.43e-03 & 9.14e-04 & 9.14e-04 & 4.71e-04 & 5.11e-04 & 5.11e-04 & 1.26e-04 & 1.26e-04\\
+fmincon 3 & 1.07e-03 & 9.59e-04 & 1.09e-03 & 1.43e-03 & 1.43e-03 & 9.12e-04 & 9.12e-04 & 4.71e-04 & 5.12e-04 & 5.12e-04 & 1.24e-04 & 1.24e-04\\\hline
+\end{tabular}
+\end{landscape}
+}
